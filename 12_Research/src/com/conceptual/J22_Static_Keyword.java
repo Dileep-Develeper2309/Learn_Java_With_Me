@@ -6,6 +6,15 @@ public class J22_Static_Keyword {
     static {
         System.out.println("Static block");
     }
+
+    static {
+        String multipleStaticBlock = """
+                A class can have multiple static blocks and each static block is executed in the same
+                sequence in which they have been written in a program.
+                """;
+
+        System.out.println(multipleStaticBlock);
+    }
     public static void main(String[] args) {
 
         String meaning = """
