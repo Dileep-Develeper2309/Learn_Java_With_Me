@@ -9,6 +9,7 @@ public class J18_Shallow_Copy_Example {
                 -> If it is a complex object, it just copies the address/reference,
                    so both still point to the same thing in memory.
                 """;
+        System.out.println(meaning);
 
         J18_Student originalStudent = new J18_Student(29,new J18_Address("Goa"));
 
